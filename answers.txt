@@ -25,3 +25,47 @@
 /* select * from Person where age != 27; */
 /* select * from Person where favoritecolor != 'red'; */
 /* select * from Person where favoritecolor != 'Red' and favoritecolor != "Blue"; */
+
+/* create table Orders(
+  PersonId integer primary key autoincrement,
+  productname text,
+  productprice integer,
+  quantity integer
+  ) */
+  
+/*   insert into Orders(productname, productprice, quantity)
+  values ('chips', 44.99, 10),
+  ('brownies',39.99, 5),
+  ('pancakes',19.99, 2),
+  ('reeses pieces', 9.99, 100),
+  ('skittles', 7.99, 15); */
+/*   select * from Orders; */
+/* select Sum(quantity) from Orders; */
+/* select Sum(productprice) from Orders; */
+/* select Sum(productprice) as Sum from Orders where PersonId=2; */
+/* 
+insert into Artist(Name)
+values('Jacob'),
+('Aaron'),
+('Joe'); */
+/* select * from Artist order by name desc limit 10; */
+/* select * from Artist order by name asc limit 5; */
+/* select * from Artist where name like 'Black%'; */
+/* select * from Artist where name like '%black%'; */
+
+
+/* select * from Employee where ReportsTo="Nancy Edwards"; */
+/* select count(*) from Employee where city="Lethbridge"; */
+
+
+
+
+/* select count(*) from Invoice where BillingCountry='USA'; */
+
+/* select * from Invoice order by total desc limit 1; */
+/* select * from Invoice where total > 5; */
+/* select count(*) from Invoice where total < 5; */
+/* select count(*) from Invoice where BillingState in ('CA', 'TX', 'AZ'); */
+
+/* select AVG(total) from Invoice; */
+/* select Sum(total) from Invoice; */
