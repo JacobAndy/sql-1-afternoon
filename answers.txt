@@ -1,0 +1,27 @@
+/* create table Person(
+  Id integer primary key autoincrement,
+  Name varchar(512),
+  Age integer,
+  Height integer,
+  City text,
+  favoritecolor text
+  ) */
+  
+/*    insert into Person(Name, Age, Height, City,favoritecolor) */
+/*   values('Jarid', 22, 99, 'Pensilvania', 'pink'); */
+/*   values('Bob', 23, 389, 'California', 'grey') */
+/*   values('Darik', 22, 115, 'Nashville', 'green'); */
+  
+/*   select * from Person Order by Height desc; */
+/* select * from Person Order by Height asc; */
+
+
+
+
+/* select * from Person Order by Age desc; */
+/* select * from Person where age > 20; */
+/* select * from Person where age = 18; */
+/* select * from Person where age < 20 or age > 30; */
+/* select * from Person where age != 27; */
+/* select * from Person where favoritecolor != 'red'; */
+/* select * from Person where favoritecolor != 'Red' and favoritecolor != "Blue"; */
